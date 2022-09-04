@@ -1,12 +1,25 @@
 import React from "react";
-import { StyleSheet, Text, View } from 'react-native';
-import {Color} from "../constants/Color";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { StyleSheet, Text, TouchableOpacity } from 'react-native';
+import { Color } from "../constants/Color";
+import routeNames from "../navigation/routeNames";
 
-export const Main = (): JSX.Element => {
+interface Props {
+    navigation: any
+}
+
+export const Main = ({ navigation }: Props): JSX.Element => {
     return (
-        <View style={styles.container}>
+        <SafeAreaView style={styles.container}>
             <Text>Kofeinya App</Text>
-        </View>
+            <TouchableOpacity
+                onPress={() => {
+                    navigation.navigate(routeNames.IntroductionScreen)
+                }}
+            >
+                <Text>Press me</Text>
+            </TouchableOpacity>
+        </SafeAreaView>
     )
 }
 
