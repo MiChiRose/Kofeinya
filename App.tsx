@@ -1,5 +1,5 @@
-import {Main} from "./src/screens/Main";
+import {Navigation} from "./src/navigation/navigation";
 
 export default function App() {
-  return <Main/>
+  return <Navigation/>
 }
