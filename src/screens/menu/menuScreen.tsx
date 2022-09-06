@@ -1,6 +1,8 @@
 import React from "react";
-import { ScrollView, Text } from "react-native";
+import {FlatList, ListRenderItem, ScrollView, Text, View} from "react-native";
 import Container from "../../reusableComponents/Container";
+import {CoffeeData, CoffeeModel} from "../../dataModel/coffeeModel";
+import {ProductCell} from "./components/productCell";
 
 interface Props {
     navigation: any
@@ -10,7 +12,13 @@ export const MenuScreen = ({ navigation }: Props): JSX.Element => {
     return (
         <Container navigation={navigation}>
             <ScrollView style={{flex: 1}}>
-                <Text>111111</Text>
+                <FlatList
+                    columnWrapperStyle={{justifyContent: 'space-between'}}
+                    style={{paddingHorizontal: 20}}
+                    data={CoffeeData}
+                    numColumns={2}
+                    renderItem={(item) => <ProductCell data={item.item}/>}
+                />
             </ScrollView>
         </Container>
     )
