@@ -1,8 +1,8 @@
 import React from "react";
-import {FlatList, ListRenderItem, ScrollView, Text, View} from "react-native";
+import { FlatList, ScrollView } from "react-native";
 import Container from "../../reusableComponents/Container";
-import {CoffeeData, CoffeeModel} from "../../dataModel/coffeeModel";
-import {ProductCell} from "./components/productCell";
+import { CoffeeData } from "../../dataModel/coffeeModel";
+import { ProductCell } from "./components/productCell";
 
 interface Props {
     navigation: any
@@ -17,7 +17,7 @@ export const MenuScreen = ({ navigation }: Props): JSX.Element => {
                     style={{paddingHorizontal: 20}}
                     data={CoffeeData}
                     numColumns={2}
-                    renderItem={(item) => <ProductCell data={item.item}/>}
+                    renderItem={({item}) => <ProductCell data={item}/>}
                 />
             </ScrollView>
         </Container>
