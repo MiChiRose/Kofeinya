@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet, TouchableOpacity, Image, View} from "react-native";
+import {Color} from "../constants/Color";
 
 interface Props {
     navigation: any
@@ -18,7 +19,7 @@ export const CustomHeader = ({navigation}: Props): JSX.Element => {
 const styles = StyleSheet.create({
     container: {
         height: 50,
-        backgroundColor: 'yellow',
+        backgroundColor: Color.transparent,
         flexDirection: 'row',
         alignItems: 'center',
         paddingHorizontal: 30
