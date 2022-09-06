@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="fe8d39c5-4cbd-4971-a727-6a0f4074ca17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/Color.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/Color.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataModel/coffeeModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataModel/coffeeModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/bottomNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/bottomNavigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/routeNames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/routeNames.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/tabbar/tabbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/menu/menuScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/menu/menuScreen.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -46,7 +54,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/drinks/espresso" />
+      <recent name="$PROJECT_DIR$/src/assets/cup/big" />
+      <recent name="$PROJECT_DIR$/src/assets/cup/medium" />
+      <recent name="$PROJECT_DIR$/src/assets/cup/little" />
+      <recent name="$PROJECT_DIR$/src/assets/toggle/toggleOn" />
+      <recent name="$PROJECT_DIR$/src/assets/toggle/toggleOff" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,12 +71,17 @@
       <updated>1662452557161</updated>
       <workItem from="1662452558257" duration="1613000" />
       <workItem from="1662457228728" duration="4893000" />
-      <workItem from="1662473640384" duration="303000" />
+      <workItem from="1662473640384" duration="9322000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/dataModel/coffeeModel.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
