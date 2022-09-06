@@ -12,6 +12,7 @@ export const CustomHeader = (): JSX.Element => {
 
 const styles = StyleSheet.create({
     container: {
+        height: 50,
         flexDirection: 'row'
     }
 })

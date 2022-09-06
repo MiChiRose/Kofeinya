@@ -3,7 +3,9 @@ import { Text, Image, View, StyleSheet } from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context";
 import { CustomButton } from "../../reusableComponents/CustomButton";
 import ButtonNames from "../../constants/ButtonNames";
-import {CustomHeader} from "../../reusableComponents/CustomHeader";
+import { CustomHeader } from "../../reusableComponents/CustomHeader";
+import { Color } from "../../constants/Color";
+import routeNames from "../../navigation/routeNames";
 
 interface Props {
     navigation: any,
@@ -17,7 +19,7 @@ export const IntroductionScreen = ({ navigation }: Props): JSX.Element => {
         <SafeAreaView style={styles.flex}>
             <CustomHeader/>
             <View style={styles.flex}>
-                <View style={{alignItems: 'center'}}>
+                <View style={{alignItems: 'center', backgroundColor: Color.green_msu}}>
                     <Image source={require("../../assets/monteLogo/monteLogo.png")}/>
                 </View>
                 <View style={styles.textContainer}>
@@ -29,7 +31,7 @@ export const IntroductionScreen = ({ navigation }: Props): JSX.Element => {
                 <View style={styles.flex}/>
                 <CustomButton
                     style={{flex: 1}}
-                    onPress={() => navigation.goBack()}
+                    onPress={() => navigation.navigate(routeNames.MenuScreen)}
                     title={ButtonNames.GetStarted}
                 />
             </View>
