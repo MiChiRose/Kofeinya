@@ -1,19 +1,17 @@
 import React from "react";
-import { ScrollView, Text, TouchableOpacity, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-import {CustomHeader} from "../../reusableComponents/CustomHeader";
+import { ScrollView, Text } from "react-native";
+import Container from "../../reusableComponents/Container";
 
 interface Props {
-
+    navigation: any
 }
 
-export const MenuScreen = ({}: Props): JSX.Element => {
+export const MenuScreen = ({ navigation }: Props): JSX.Element => {
     return (
-        <SafeAreaView style={{flex: 1}}>
-            <CustomHeader/>
-            <ScrollView style={{flex: 1, backgroundColor: 'red'}}>
+        <Container navigation={navigation}>
+            <ScrollView style={{flex: 1}}>
                 <Text>111111</Text>
             </ScrollView>
-        </SafeAreaView>
+        </Container>
     )
 }

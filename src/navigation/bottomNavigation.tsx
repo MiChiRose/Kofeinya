@@ -1,6 +1,6 @@
 import React from "react";
-import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
 import routeNames from "./routeNames";
 import {MenuScreen} from "../screens/menu/menuScreen";
 import {TabBar} from "./tabbar/tabbar";
@@ -13,12 +13,11 @@ export const BottomNavigation = () => {
         <>
             <Tab.Navigator
                 initialRouteName={routeNames.MenuScreen}
-                tabBar={(props) => {
-                    console.log(1111, props)
-                    return (
-                        <TabBar {...props}/>
-                        )
-                }}>
+                tabBar={(props) => <TabBar {...props}/>}
+                screenOptions={{
+                    headerShown: false
+                }}
+            >
                 <Tab.Screen name={routeNames.MenuScreen} component={MenuScreen}/>
                 <Tab.Screen name={routeNames.MainScreen} component={Main}/>
             </Tab.Navigator>

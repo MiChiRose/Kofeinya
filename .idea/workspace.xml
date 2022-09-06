@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2acb3700-f5de-4ef8-920a-98375d3d8cfc" name="Changes" comment="">
+    <list default="true" id="fe8d39c5-4cbd-4971-a727-6a0f4074ca17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/bottomNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/bottomNavigation.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/navigation/mainNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/mainNavigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/routeNames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/routeNames.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/tabbar/tabbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/tabbar/tabbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/introduction/IntroductionScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/introduction/IntroductionScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/menu/menuScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/menu/menuScreen.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,42 +32,54 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2DXMjK4ivca9KiMnJZaokHjmppi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EO2xZex9HeT0LJv1wDIU8Lnvl7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Users/leverx/Downloads/Kofeinya/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/backButton" />
-      <recent name="$PROJECT_DIR$/src/assets/monteLogo" />
+      <recent name="$PROJECT_DIR$/src/assets/drinks/espresso" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2acb3700-f5de-4ef8-920a-98375d3d8cfc" name="Changes" comment="" />
-      <created>1660841113697</created>
+      <changelist id="fe8d39c5-4cbd-4971-a727-6a0f4074ca17" name="Changes" comment="" />
+      <created>1662452557161</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1660841113697</updated>
-      <workItem from="1660841116693" duration="1935000" />
-      <workItem from="1662319121190" duration="6485000" />
-      <workItem from="1662397380391" duration="2914000" />
+      <updated>1662452557161</updated>
+      <workItem from="1662452558257" duration="1613000" />
+      <workItem from="1662457228728" duration="3862000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

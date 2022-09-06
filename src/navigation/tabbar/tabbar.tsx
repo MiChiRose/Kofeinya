@@ -1,6 +1,7 @@
 import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { TouchableOpacity, StyleSheet, Text, View } from "react-native";
+import {Color} from "../../constants/Color";
 
 interface Props {
     state: any,
@@ -10,7 +11,7 @@ interface Props {
 
 export const TabBar = ({ state, descriptors, navigation }: Props): JSX.Element => {
     return (
-        <SafeAreaView style={{ flexDirection: 'row' }}>
+        <SafeAreaView style={{ flexDirection: 'row', backgroundColor: 'transparent', paddingHorizontal: 30}}>
             {state.routes.map((route: any, index: number) => {
                 const { options } = descriptors[route.key];
                 const label =
@@ -48,9 +49,9 @@ export const TabBar = ({ state, descriptors, navigation }: Props): JSX.Element =
                         testID={options.tabBarTestID}
                         onPress={onPress}
                         onLongPress={onLongPress}
-                        style={{ flex: 1 }}
+                        style={{ flex: 1, justifyContent: 'center', alignItems: 'center'}}
                     >
-                        <Text style={{ color: isFocused ? '#673ab7' : '#222' }}>
+                        <Text style={{ color: isFocused ? Color.green_msu : Color.black }}>
                             {label}
                         </Text>
                     </TouchableOpacity>

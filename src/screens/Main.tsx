@@ -1,8 +1,8 @@
 import React from "react";
-import { SafeAreaView } from "react-native-safe-area-context";
 import { StyleSheet, Text, TouchableOpacity } from 'react-native';
 import { Color } from "../constants/Color";
 import routeNames from "../navigation/routeNames";
+import Container from "../reusableComponents/Container";
 
 interface Props {
     navigation: any
@@ -10,7 +10,11 @@ interface Props {
 
 export const Main = ({ navigation }: Props): JSX.Element => {
     return (
-        <SafeAreaView style={styles.container}>
+        <Container
+            isHeaderHidden
+            navigation={navigation}
+            style={styles.container}
+        >
             <Text>Kofeinya App</Text>
             <TouchableOpacity
                 onPress={() => {
@@ -19,13 +23,12 @@ export const Main = ({ navigation }: Props): JSX.Element => {
             >
                 <Text>Press me</Text>
             </TouchableOpacity>
-        </SafeAreaView>
+        </Container>
     )
 }
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
         backgroundColor: Color.white,
         alignItems: 'center',
         justifyContent: 'center',
