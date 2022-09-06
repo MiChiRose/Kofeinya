@@ -3,6 +3,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 
 import {Main} from "../screens/Main";
 import {IntroductionScreen} from "../screens/introduction/IntroductionScreen";
+import {MenuScreen} from "../screens/menu/menuScreen";
 
 import routeNames from "./routeNames";
 
@@ -23,6 +24,10 @@ export const MainNavigation = () => {
                 <Stack.Screen
                     name={routeNames.IntroductionScreen}
                     component={IntroductionScreen}
+                />
+                <Stack.Screen
+                    name={routeNames.MenuScreen}
+                    component={MenuScreen}
                 />
             </Stack.Navigator>
         </>
