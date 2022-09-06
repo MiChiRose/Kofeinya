@@ -1,10 +1,13 @@
 export default {
-    //Navigation
+    // Navigation
     MainNavigation: "MainNavigation",
     BottomNavigation: "BottomNavigation",
 
-    //Main screen
+    // Screens
     MainScreen: "MainScreen",
     IntroductionScreen: "IntroductionScreen",
-    MenuScreen: "MenuScreen"
+    MenuScreen: "MenuScreen",
+    CartScreen: "CartScreen",
+    FavoritesScreen: "FavoritesScreen",
+    AccountScreen: "AccountScreen"
 }
