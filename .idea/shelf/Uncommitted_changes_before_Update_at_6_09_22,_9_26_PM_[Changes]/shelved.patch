@@ -1,0 +1,35 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"2acb3700-f5de-4ef8-920a-98375d3d8cfc\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/navigation/mainNavigation.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/navigation/mainNavigation.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/navigation/navigation.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/navigation/navigation.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/navigation/routeNames.ts\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/navigation/routeNames.ts\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/screens/introduction/IntroductionScreen.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/screens/introduction/IntroductionScreen.tsx\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"TypeScript File\" />\n        <option value=\"TypeScript JSX File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2DXMjK4ivca9KiMnJZaokHjmppi\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"nodejs_package_manager_path\" value=\"yarn\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"Errors\" />\n    <property name=\"ts.external.directory.path\" value=\"$PROJECT_DIR$/node_modules/typescript/lib\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/assets/backButton\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/monteLogo\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"2acb3700-f5de-4ef8-920a-98375d3d8cfc\" name=\"Changes\" comment=\"\" />\n      <created>1660841113697</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1660841113697</updated>\n      <workItem from=\"1660841116693\" duration=\"1935000\" />\n      <workItem from=\"1662319121190\" duration=\"6485000\" />\n      <workItem from=\"1662397380391\" duration=\"2914000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 6513952c388168e8ef2513c182dc10ed038c53e4)
++++ b/.idea/workspace.xml	(date 1662443142680)
+@@ -1,14 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="2acb3700-f5de-4ef8-920a-98375d3d8cfc" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/navigation/mainNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/mainNavigation.tsx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/navigation.tsx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/navigation/routeNames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/routeNames.ts" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/screens/introduction/IntroductionScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/introduction/IntroductionScreen.tsx" afterDir="false" />
+-    </list>
++    <list default="true" id="2acb3700-f5de-4ef8-920a-98375d3d8cfc" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -61,7 +54,7 @@
+       <updated>1660841113697</updated>
+       <workItem from="1660841116693" duration="1935000" />
+       <workItem from="1662319121190" duration="6485000" />
+-      <workItem from="1662397380391" duration="2914000" />
++      <workItem from="1662397380391" duration="3769000" />
+     </task>
+     <servers />
+   </component>
