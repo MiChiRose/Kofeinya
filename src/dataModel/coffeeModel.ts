@@ -9,7 +9,8 @@ export interface CoffeeModel {
     type: number
 }
 
-const MENU_TYPE = {
+export const MENU_TYPE = {
+    all: 0,
     cappuccino: 1,
     raf: 2,
     latte: 3,

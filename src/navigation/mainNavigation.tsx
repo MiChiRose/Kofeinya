@@ -16,11 +16,11 @@ export const MainNavigation = () => {
                 screenOptions={{
                     headerShown: false
                 }}
-                initialRouteName={routeNames.MainScreen}>
-                <Stack.Screen
-                    name={routeNames.MainScreen}
-                    component={Main}
-                />
+                initialRouteName={routeNames.IntroductionScreen}>
+                {/*<Stack.Screen*/}
+                {/*    name={routeNames.MainScreen}*/}
+                {/*    component={Main}*/}
+                {/*/>*/}
                 <Stack.Screen
                     name={routeNames.IntroductionScreen}
                     component={IntroductionScreen}

@@ -2,6 +2,7 @@ import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import {StyleProp, StyleSheet, ViewStyle} from "react-native";
 import {CustomHeader} from "./CustomHeader";
+import {Color} from "../constants/Color";
 
 interface Props {
     navigation: any,
@@ -23,6 +24,7 @@ export default React.memo(Container)
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1
+        backgroundColor: Color.white,
+        flex: 1,
     }
 })

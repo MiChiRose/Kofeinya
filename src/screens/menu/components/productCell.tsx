@@ -13,9 +13,13 @@ export const ProductCell = ({ data }: Props): JSX.Element => {
     return (
         <View style={styles.container}>
             <View style={styles.topContainer}>
-                <Text>{`${data.points} ${data.points > 1 ? 'points' : 'point'}`}</Text>
+                <Text style={styles.points}>{`${data.points} ${data.points > 1 ? 'points' : 'point'}`}</Text>
                 <TouchableOpacity>
-                    <Image source={require("../../../assets/heart/heart.png")}/>
+                    <Image
+                        resizeMode={'contain'}
+                        style={{tintColor: true ? Color.black : Color.red}}
+                        source={require("../../../assets/heart/heart.png")}
+                    />
                 </TouchableOpacity>
             </View>
             {test ? (
@@ -24,13 +28,14 @@ export const ProductCell = ({ data }: Props): JSX.Element => {
                 </View>
                 ) : (
                     <View style={[styles.rowContainer, {marginVertical: 10, flex: 1}]}>
-                        <Image source={data.image}/>
+                        {/*@ts-ignore*/}
+                        {data.image && <Image source={data.image}/>}
                     </View>
             )}
             <View style={[styles.rowContainer, styles.bottomContainer]}>
                 <View>
-                    <Text>${data.price}</Text>
-                    <Text>{data.name}</Text>
+                    <Text style={styles.productPrice}>${data.price}</Text>
+                    <Text style={styles.productName}>{data.name}</Text>
                 </View>
                 <TouchableOpacity>
                     <Image source={require("../../../assets/addPlus/addPlus.png")}/>
@@ -59,6 +64,7 @@ const styles = StyleSheet.create({
     },
     topContainer: {
         flexDirection: 'row',
+        alignItems: 'center',
         justifyContent: 'space-between'
     },
     rowContainer: {
@@ -68,5 +74,17 @@ const styles = StyleSheet.create({
     bottomContainer: {
         flexDirection: 'row',
         justifyContent: 'space-between'
+    },
+    productName: {
+        fontSize: 14,
+        fontWeight: '600'
+    },
+    productPrice: {
+        fontSize: 10,
+        fontWeight: '400'
+    },
+    points: {
+        fontSize: 10,
+        fontWeight: '500'
     }
 })

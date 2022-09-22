@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe8d39c5-4cbd-4971-a727-6a0f4074ca17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/eas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_22,_9_26_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_22__9_26_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataModel/coffeeModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataModel/coffeeModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/mainNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/mainNavigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reusableComponents/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reusableComponents/Container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/menu/components/productCell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/menu/components/productCell.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/menu/menuScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/menu/menuScreen.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -74,6 +81,9 @@
       <workItem from="1662473640384" duration="10130000" />
       <workItem from="1662485722118" duration="1119000" />
       <workItem from="1662572265108" duration="1787000" />
+      <workItem from="1662615820710" duration="62000" />
+      <workItem from="1663857952331" duration="574000" />
+      <workItem from="1663858563727" duration="5427000" />
     </task>
     <servers />
   </component>
