@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { FlatList, ScrollView, Text } from "react-native";
 import Container from "../../reusableComponents/Container";
 import { CoffeeData } from "../../dataModel/coffeeModel";
@@ -10,11 +10,17 @@ interface Props {
 }
 
 export const MenuScreen = ({ navigation }: Props): JSX.Element => {
-    let data = [...new Set(CoffeeData)]
-    console.log(111, data)
+    const [data, setData] = useState([...new Set(CoffeeData)])
     return (
         <Container navigation={navigation}>
-            <HorizontalScrollSortList productList={data} headerWithText={"categories"}/>
+            <HorizontalScrollSortList
+                productList={data}
+                headerWithText={"categories"}
+                chooseType={(a) => {
+                    let b = data.filter((itm) => itm.type === a.type)
+                    setData(b)
+                }}
+            />
             <ScrollView style={{flex: 1}}>
                 <FlatList
                     columnWrapperStyle={{justifyContent: 'space-between'}}
