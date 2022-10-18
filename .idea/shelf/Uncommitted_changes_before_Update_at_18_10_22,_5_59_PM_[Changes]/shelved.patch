@@ -1,0 +1,156 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_6_09_22,_9_26_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_22,_9_26_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_22,_9_26_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_22,_9_26_PM_[Changes]/shelved.patch	(revision 33693ece61bc682fb38f6a700c8ad4cda4ac5866)
++++ /dev/null	(revision 33693ece61bc682fb38f6a700c8ad4cda4ac5866)
+@@ -1,35 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"2acb3700-f5de-4ef8-920a-98375d3d8cfc\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/navigation/mainNavigation.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/navigation/mainNavigation.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/navigation/navigation.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/navigation/navigation.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/navigation/routeNames.ts\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/navigation/routeNames.ts\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/screens/introduction/IntroductionScreen.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/screens/introduction/IntroductionScreen.tsx\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"TypeScript File\" />\n        <option value=\"TypeScript JSX File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2DXMjK4ivca9KiMnJZaokHjmppi\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"nodejs_package_manager_path\" value=\"yarn\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"Errors\" />\n    <property name=\"ts.external.directory.path\" value=\"$PROJECT_DIR$/node_modules/typescript/lib\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/assets/backButton\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/monteLogo\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"2acb3700-f5de-4ef8-920a-98375d3d8cfc\" name=\"Changes\" comment=\"\" />\n      <created>1660841113697</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1660841113697</updated>\n      <workItem from=\"1660841116693\" duration=\"1935000\" />\n      <workItem from=\"1662319121190\" duration=\"6485000\" />\n      <workItem from=\"1662397380391\" duration=\"2914000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 6513952c388168e8ef2513c182dc10ed038c53e4)
+-+++ b/.idea/workspace.xml	(date 1662443142680)
+-@@ -1,14 +1,7 @@
+- <?xml version="1.0" encoding="UTF-8"?>
+- <project version="4">
+-   <component name="ChangeListManager">
+--    <list default="true" id="2acb3700-f5de-4ef8-920a-98375d3d8cfc" name="Changes" comment="">
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/navigation/mainNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/mainNavigation.tsx" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/navigation.tsx" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/navigation/routeNames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/routeNames.ts" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/screens/introduction/IntroductionScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/introduction/IntroductionScreen.tsx" afterDir="false" />
+--    </list>
+-+    <list default="true" id="2acb3700-f5de-4ef8-920a-98375d3d8cfc" name="Changes" comment="" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -61,7 +54,7 @@
+-       <updated>1660841113697</updated>
+-       <workItem from="1660841116693" duration="1935000" />
+-       <workItem from="1662319121190" duration="6485000" />
+--      <workItem from="1662397380391" duration="2914000" />
+-+      <workItem from="1662397380391" duration="3769000" />
+-     </task>
+-     <servers />
+-   </component>
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_8_09_22__9_37_AM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_8_09_22__9_37_AM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_8_09_22__9_37_AM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_8_09_22__9_37_AM__Changes_.xml	(revision 33693ece61bc682fb38f6a700c8ad4cda4ac5866)
++++ /dev/null	(revision 33693ece61bc682fb38f6a700c8ad4cda4ac5866)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_8_09_22,_9_37_AM_[Changes]" date="1662619044820" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_09_22,_9_37_AM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 8.09.22, 9:37 AM [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_8_09_22,_9_37_AM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_8_09_22,_9_37_AM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_8_09_22,_9_37_AM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_8_09_22,_9_37_AM_[Changes]/shelved.patch	(revision 33693ece61bc682fb38f6a700c8ad4cda4ac5866)
++++ /dev/null	(revision 33693ece61bc682fb38f6a700c8ad4cda4ac5866)
+@@ -1,32 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"fe8d39c5-4cbd-4971-a727-6a0f4074ca17\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/App.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/App.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/screens/Main.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/screens/Main.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/screens/menu/menuScreen.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/screens/menu/menuScreen.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/yarn.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/yarn.lock\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"TypeScript File\" />\n        <option value=\"JavaScript File\" />\n        <option value=\"TypeScript JSX File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2EO2xZex9HeT0LJv1wDIU8Lnvl7\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,\n    &quot;ts.external.directory.path&quot;: &quot;/Users/leverx/Downloads/Kofeinya/node_modules/typescript/lib&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/assets/cup/big\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/cup/medium\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/cup/little\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/toggle/toggleOn\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/toggle/toggleOff\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"fe8d39c5-4cbd-4971-a727-6a0f4074ca17\" name=\"Changes\" comment=\"\" />\n      <created>1662452557161</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1662452557161</updated>\n      <workItem from=\"1662452558257\" duration=\"1613000\" />\n      <workItem from=\"1662457228728\" duration=\"4893000\" />\n      <workItem from=\"1662473640384\" duration=\"10130000\" />\n      <workItem from=\"1662485722118\" duration=\"1119000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n    <option name=\"exactExcludedFiles\">\n      <list>\n        <option value=\"$PROJECT_DIR$/src/dataModel/coffeeModel.js\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 08609ea2dc61d475da5d1159646a2815f628289d)
+-+++ b/.idea/workspace.xml	(date 1662619040581)
+-@@ -3,11 +3,6 @@
+-   <component name="ChangeListManager">
+-     <list default="true" id="fe8d39c5-4cbd-4971-a727-6a0f4074ca17" name="Changes" comment="">
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/screens/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Main.tsx" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/screens/menu/menuScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/menu/menuScreen.tsx" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -70,7 +65,8 @@
+-       <workItem from="1662452558257" duration="1613000" />
+-       <workItem from="1662457228728" duration="4893000" />
+-       <workItem from="1662473640384" duration="10130000" />
+--      <workItem from="1662485722118" duration="1119000" />
+-+      <workItem from="1662485722118" duration="1175000" />
+-+      <workItem from="1662571878524" duration="1041000" />
+-     </task>
+-     <servers />
+-   </component>
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_6_09_22__9_26_PM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_22__9_26_PM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_22__9_26_PM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_22__9_26_PM__Changes_.xml	(revision 33693ece61bc682fb38f6a700c8ad4cda4ac5866)
++++ /dev/null	(revision 33693ece61bc682fb38f6a700c8ad4cda4ac5866)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_6_09_22,_9_26_PM_[Changes]" date="1662488788271" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_22,_9_26_PM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 6.09.22, 9:26 PM [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"fe8d39c5-4cbd-4971-a727-6a0f4074ca17\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/eas.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/app.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app.json\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"TypeScript File\" />\n        <option value=\"JavaScript File\" />\n        <option value=\"TypeScript JSX File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GithubProjectSettings\">\n    <option name=\"branchProtectionPatterns\">\n      <list>\n        <option value=\"master\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2EO2xZex9HeT0LJv1wDIU8Lnvl7\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"nodejs_package_manager_path\" value=\"yarn\" />\n    <property name=\"ts.external.directory.path\" value=\"$PROJECT_DIR$/node_modules/typescript/lib\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/assets/cup/big\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/cup/medium\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/cup/little\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/toggle/toggleOn\" />\n      <recent name=\"$PROJECT_DIR$/src/assets/toggle/toggleOff\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"fe8d39c5-4cbd-4971-a727-6a0f4074ca17\" name=\"Changes\" comment=\"\" />\n      <created>1662452557161</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1662452557161</updated>\n      <workItem from=\"1662452558257\" duration=\"1613000\" />\n      <workItem from=\"1662457228728\" duration=\"4893000\" />\n      <workItem from=\"1662473640384\" duration=\"10130000\" />\n      <workItem from=\"1662485722118\" duration=\"1119000\" />\n      <workItem from=\"1662572265108\" duration=\"1787000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n    <option name=\"exactExcludedFiles\">\n      <list>\n        <option value=\"$PROJECT_DIR$/src/dataModel/coffeeModel.js\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 33693ece61bc682fb38f6a700c8ad4cda4ac5866)
++++ b/.idea/workspace.xml	(date 1664198107798)
+@@ -2,9 +2,9 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="fe8d39c5-4cbd-4971-a727-6a0f4074ca17" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/eas.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_22,_9_26_PM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_09_22,_9_37_AM_[Changes]/shelved.patch" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -44,14 +44,12 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">
+-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+-    <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="nodejs_package_manager_path" value="yarn" />
+-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+-    <property name="vue.rearranger.settings.migration" value="true" />
+-  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "WebServerToolWindowFactoryState": "false",
++    "vue.rearranger.settings.migration": "true"
++  }
++}]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/src/assets/cup/big" />
+@@ -95,6 +93,5 @@
+         </entry>
+       </map>
+     </option>
+-    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+ </project>
+\ No newline at end of file

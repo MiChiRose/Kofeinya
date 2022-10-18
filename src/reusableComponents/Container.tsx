@@ -14,7 +14,11 @@ interface Props {
 const Container = ({ navigation, isHeaderHidden, children, style }: Props): JSX.Element => {
     return (
         <SafeAreaView style={[styles.container, style]}>
-            {!isHeaderHidden && <CustomHeader navigation={navigation}/>}
+            {!isHeaderHidden &&
+                <CustomHeader
+                    navigation={navigation}
+                    leftButton={true}
+                />}
             {children}
         </SafeAreaView>
     )

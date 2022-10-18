@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe8d39c5-4cbd-4971-a727-6a0f4074ca17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_22,_9_26_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_09_22__9_26_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataModel/coffeeModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataModel/coffeeModel.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/mainNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/mainNavigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/imageAssets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imageAssets.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reusableComponents/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reusableComponents/Container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/menu/components/productCell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/menu/components/productCell.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/menu/menuScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/menu/menuScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/account/accountScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/account/accountScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +48,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "/Users/leverx/Downloads/Kofeinya/node_modules/typescript/lib"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/cup/big" />
@@ -105,6 +100,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
