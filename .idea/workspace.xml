@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fe8d39c5-4cbd-4971-a727-6a0f4074ca17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eas.json" beforeDir="false" afterPath="$PROJECT_DIR$/eas.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/imageAssets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imageAssets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reusableComponents/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reusableComponents/Container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reusableComponents/CustomHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/account/accountScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/account/accountScreen.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="intro-0.0.1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,11 +54,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/assets/cup/big" />
       <recent name="$PROJECT_DIR$/src/assets/cup/medium" />
       <recent name="$PROJECT_DIR$/src/assets/cup/little" />
       <recent name="$PROJECT_DIR$/src/assets/toggle/toggleOn" />
-      <recent name="$PROJECT_DIR$/src/assets/toggle/toggleOff" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
